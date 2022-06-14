@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Final_MyTrips_Firstname_Lastname">
+    <Resource name="jdbc/java3" type="javax.sql.DataSource" auth="Container" 
+        driverClassName="com.mysql.cj.jdbc.Driver" 
+        url="jdbc:mysql://localhost:3306/java3" 
+        username="java3" password="java3" 
+        maxActive="100" maxIdle="30" maxWait="10000" 
+        logAbandoned="true" removeAbandoned="true" 
+        removeAbandonedTimeout="60"  />                  
+</Context>
